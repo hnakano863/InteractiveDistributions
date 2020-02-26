@@ -168,19 +168,19 @@ version = "0.10.3"
 
 [[InteractBase]]
 deps = ["Base64", "CSSUtil", "Colors", "Dates", "JSExpr", "JSON", "Knockout", "Observables", "OrderedCollections", "Random", "WebIO", "Widgets"]
-git-tree-sha1 = "40bbaae0e7e35257aaf730cbd2f3b4c69705ffdb"
+git-tree-sha1 = "4528a536425453c9658ad00cf097c979cc0fa03f"
 uuid = "d3863d7c-f0c8-5437-a7b4-3ae773c01009"
-version = "0.10.4"
+version = "0.10.3"
 
 [[InteractiveUtils]]
 deps = ["Markdown"]
 uuid = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 
 [[JSExpr]]
-deps = ["JSON", "MacroTools", "Observables", "Test", "WebIO"]
-git-tree-sha1 = "013bc2143a2e84ea489365cf30db3407deb540c2"
+deps = ["JSON", "MacroTools", "Observables", "WebIO"]
+git-tree-sha1 = "ca99c457d67f7950e405f26044f4e38658a75e8a"
 uuid = "97c1335a-c9c5-57fe-bc5d-ec35cebe8660"
-version = "0.5.0"
+version = "0.5.1"
 
 [[JSON]]
 deps = ["Dates", "Mmap", "Parsers", "Unicode"]
@@ -255,9 +255,10 @@ uuid = "77ba4419-2d1f-58cd-9bb1-8ffee604a2e3"
 version = "0.3.3"
 
 [[Observables]]
-git-tree-sha1 = "2ed501524071e108740425c7927c1ed0de7ae4ce"
+deps = ["Test"]
+git-tree-sha1 = "dc02cec22747d1d10d9f70d8a1c03432b5bfbcd0"
 uuid = "510215fc-4207-5dde-b226-833fc4488ee2"
-version = "0.3.0"
+version = "0.2.3"
 
 [[Ogg_jll]]
 deps = ["Libdl", "Pkg"]
@@ -449,10 +450,10 @@ uuid = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 
 [[WebIO]]
-deps = ["AssetRegistry", "Base64", "Compat", "Distributed", "FunctionalCollections", "JSON", "Logging", "Observables", "Pkg", "Random", "Requires", "Sockets", "UUIDs", "WebSockets", "Widgets"]
-git-tree-sha1 = "ba53f245d0c4ef3ccf0f2c89546ecfcd1957797f"
+deps = ["AssetRegistry", "Base64", "Distributed", "FunctionalCollections", "JSON", "Logging", "Observables", "Pkg", "Random", "Requires", "Sockets", "UUIDs", "WebSockets", "Widgets"]
+git-tree-sha1 = "b8eb800251c06efd635bcdc4ec7f83643f0b9a61"
 uuid = "0f1e0344-ec1d-5b48-a673-e5cf874b6c29"
-version = "0.8.11"
+version = "0.8.13"
 
 [[WebSockets]]
 deps = ["Base64", "Dates", "Distributed", "HTTP", "Logging", "Random", "Sockets", "Test"]
